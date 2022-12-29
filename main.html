@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basis HTML Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin: 30px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 3px 80px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+    <table>
+        <thead class="t1">
+            <th>Roll Number</th>
+            <th>Name</th>
+        </thead>
+        <tr class="t2">
+            <td>143</td>
+            <td>jason</td>
+        </tr>
+        <tr class="t3">
+            <td>144</td>
+            <td>hendri</td>
+        </tr>
+        <tr class="t4">
+            <td>145</td>
+            <td>walmar</td>
+        </tr>
+    </table>
+
     <script type="text/javascript" src="./script.js">
-</script>
-
+    </script>
 </body>
-
 </html>
